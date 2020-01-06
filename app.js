@@ -63,4 +63,4 @@ app.use(routers.routes()).use(routers.allowedMethods())
 
 // 监听启动端口
 app.listen(config.port)
-console.log(`http://192.168.40.105:${config.port}`)
+console.log(`http://${config.dataBase.HOST}:${config.port}`)

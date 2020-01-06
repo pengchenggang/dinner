@@ -7,7 +7,7 @@
 const config = {
   port: 2000, // 启动端口
   dataBase: { // 数据库配置
-    HOST: '192.168.40.105', // 地址
+    HOST: '192.168.40.54', // 地址
     PORT: '3306', // 端口
     USERNAME: 'root', // 用户
     PASSWORD: '123456', // 密码
